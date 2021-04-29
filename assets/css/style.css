@@ -1,0 +1,237 @@
+.capa1{
+    margin-top: 10px;
+}
+.item1{ 
+    background-color:#F7F8FC;
+    border-left: 4px solid orange;
+    text-align:left;
+    padding:8px;
+}
+.contenedor1{
+    display:flex;
+    flex-direction: row;
+}
+.centrar{
+      text-align:left center;
+      margin-left:  15px;
+      margin-top:15px;
+}
+.botones{
+    color: rgb(167, 157, 157);
+    border-radius: 50px;
+    width: 10px;
+    height:18px;
+    margin-right: 5px;
+    border-style:none
+}
+.botones:hover{
+    background-color: rgb(80, 77, 77);
+}
+.capa-botones{
+    display: flex;
+    flex-direction: row;
+    margin-left: 289px;
+}
+.contenedor-benefits1{
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.contenedor-benefits2{
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 300px;
+}
+.contenedor-benefits1-capa1{
+    /* background-color: pink; */
+    margin: 50px;
+    display:flex;
+    flex-direction: column;
+   
+}
+.contenedor-benefits1-capa2{
+    /* background-color:yellow; */
+    margin: 50px;   
+}
+.contenedor-benefits1-capa3{
+    /* background-color: blueviolet; */
+    margin: 50px;
+}
+.contenedor-benefits2-1 
+{
+    margin: 50px;
+    /* background-color: green; */
+}
+.contenedor-benefits2-2
+{
+    margin: 50px;
+    /* background-color: greenyellow; */
+}
+.contenedor-benefits2-3 
+{
+    margin: 50px;
+  /*   background-color: orange; */
+}
+.centrar-p-titulo{
+    text-align: center;
+    font-weight:bold;
+    font-family: Quicksand; 
+    font-size: 17px; 
+    font-style: normal;
+}
+.centrar-p{
+    text-align: center;
+}
+.centrar-imagen{
+    margin:0% 0% 10% 40%;
+}
+.titulo-included{
+    text-align: center;
+    font-family: Quicksand; 
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.estilo-lista{
+    list-style-image: url('iconos/check-circle-solid1.png');
+    margin:40px;
+} 
+.contenedor-what{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+li{
+    margin:5px;
+}
+a{
+    color: rgb(138,135,135);
+}
+a:hover{
+    color: rgb(62, 62, 75);
+}
+.capa1-what{
+    margin:40px;
+}
+.boton-what{
+    border-radius: 50px;
+    background-color: rgb(229,87,19);
+    color:white;
+    padding: 0.875rem 2.5rem;
+    font-weight: 600;
+    margin-left:75px;
+    border-style:none;
+}
+.titulo-getfree{
+    text-align: center;
+    font-family: Quicksand; 
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+.boton-send{
+    border-radius: 5px;
+    background-color: rgb(229,87,19);
+    color:white;
+    padding: 0.875rem 2.5rem;
+    font-weight: 600;
+    border-style:none;
+}
+.capa2-getfree{
+    text-align: center;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background: rgb(247, 248, 252);
+    justify-content: center;
+    padding: 46px;
+    margin-left: 13%;
+}
+.clase-entrada{
+    width:345px;
+    height:50px;
+}
+/* ////para hacerlo con flex////
+.contenedor-primario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contenedor-secundario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.capa-una{
+    width: 45%;
+    background-color: rgb(247, 248, 252);
+    padding: 30px;
+    text-align: center;
+    margin: 2%;
+}
+.icono-comillas1{
+    position: absolute;
+    margin: -55px 24px 23px -19px;
+}
+.avatar1{
+    position: absolute;
+    margin: 17px 0px 0px -139px;
+}
+.alineacion-parrafo{
+    margin-top: 5px;
+    text-align: left;
+    margin-top: 41px;
+    margin-left: 83px;
+}*/
+.contenedor-ppal{
+    display: grid;
+    grid-template-columns: 375px 375px 375px;
+    grid-template-rows: 235px;
+    column-gap: 20px;
+    row-gap: 39px;
+}
+.contenedor-secun{
+    display:grid;
+    grid-template-columns: 375px 375px;
+    grid-template-rows: 235px;
+    column-gap: 20px;
+    /* row-gap: 25px; */
+    margin-left: 0%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.contenedor-uno{
+background-color: rgb(247, 248, 252);
+}
+.centrar-comillas{
+    margin-left: 45%;
+    margin-top: -5%;
+}
+.sub-capa1{
+    display:flex;
+    flex-direction: row; 
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+
+.sub-capa2{
+    display:flex;
+    flex-direction: row; 
+    margin-top: 40px;
+    margin-left: 20px;  
+}
+.parraf0{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+.parraf1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.parraf2{
+    margin-left: 10px;
+    margin-top: 10px;
+}
